@@ -2,31 +2,29 @@
 
 const CONFIG = {
   github: {
-    username: 'sulistyow', // Your GitHub org/user name. (This is the only required config)
+    username: 'sulistyow', 
   },
   
   base: '/',
   projects: {
     github: {
-      display: false, // Display GitHub projects?
+      display: false, 
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'automatic', 
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars', 
+        limit: 8, 
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false, 
+          projects: [], 
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['', ''], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['', ''],
       },
     },
     external: {
       header: 'Portfolio',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'LINE Bank',
@@ -91,12 +89,12 @@ const CONFIG = {
     researchGate: '',
     facebook: '',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '', 
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '', 
     skype: '',
     telegram: '',
     website: '',
@@ -105,7 +103,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/drive/folders/18XddO9IF_zOdjiBbiI00zYxpUiSH581j?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/drive/folders/18XddO9IF_zOdjiBbiI00zYxpUiSH581j?usp=sharing',
   },
   skills: [
     'Android Development',
@@ -160,7 +158,7 @@ const CONFIG = {
   ],
   educations: [
     // {
-    //   institution: 'Duta Bangsa Surakarta University',
+    //   institution: '',
     //   degree: 'Bachelor Degree',
     //   from: '2016',
     //   to: '2020',
@@ -193,9 +191,8 @@ const CONFIG = {
     // limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '', 
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
     snippetVersion: 6,
@@ -209,44 +206,42 @@ const CONFIG = {
 
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'procyon',
+      // 'light',
+      // 'dark',
+      // 'cupcake',
+      // 'bumblebee',
+      // 'emerald',
+      // 'corporate',
+      // 'synthwave',
+      // 'retro',
+      // 'cyberpunk',
+      // 'valentine',
+      // 'halloween',
+      // 'garden',
+      // 'forest',
+      // 'aqua',
+      // 'lofi',
+      // 'pastel',
+      // 'fantasy',
+      // 'wireframe',
+      // 'black',
+      // 'luxury',
+      // 'dracula',
+      // 'cmyk',
+      // 'autumn',
+      // 'business',
+      // 'acid',
+      // 'lemonade',
+      // 'night',
+      // 'coffee',
+      // 'winter',
+      // 'dim',
+      // 'nord',
+      // 'sunset',
+      // 'procyon',
     ],
 
-    // Custom theme, applied to `procyon` theme
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -258,7 +253,6 @@ const CONFIG = {
     },
   },
 
-  // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
