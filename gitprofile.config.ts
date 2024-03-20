@@ -2,13 +2,9 @@
 
 const CONFIG = {
   github: {
-    username: 'sulistyows', // Your GitHub org/user name. (This is the only required config)
+    username: 'sulistyow', // Your GitHub org/user name. (This is the only required config)
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
+  
   base: '/',
   projects: {
     github: {
@@ -29,7 +25,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Portofolio',
+      header: 'Portfolio',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -45,7 +41,7 @@ const CONFIG = {
           description:
             'Worked with HSO Astra International to develop their internal App for Delivery Man',
           imageUrl:
-            '',
+            'android.png',
           link: '',
         },
         {
@@ -53,7 +49,7 @@ const CONFIG = {
           description:
             'Worked with HSO Astra International to develop their internal App for Dealer Warehourse',
           imageUrl:
-            '',
+            '/android.png',
           link: '',
         },
         {
@@ -61,16 +57,24 @@ const CONFIG = {
           description:
             'App for help PGN reporting Site Assets Inspection.',
           imageUrl:
-            '',
+            'android.png',
           link: '',
         },
         {
-          title: 'Srintami',
+          title: 'CBM Gardu',
           description:
-            'App for help PLN Ground Patrol reporting Site Inspection.',
+            'CBM Mobile Application for charging substation maintenance and Healthy Index calculations.',
+          imageUrl:
+            '/cbmtransmisi.webp',
+          link: 'https://play.google.com/store/apps/details?id=id.lumut.cbmgardu&hl=id&gl=US',
+        },
+        {
+          title: 'CBM Transmisi',
+          description:
+            'PT PLN (Persero) UIP3B Sumatra Mobile Transmission CBM Application for filling maintenance and calculating Healthy Index.',
           imageUrl:
             '/srintami.png',
-          link: '',
+          link: 'https://play.google.com/store/apps/details?id=id.lumut.cbmtrans&hl=en_US',
         },
       ],
     },
@@ -101,7 +105,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/drive/folders/18XddO9IF_zOdjiBbiI00zYxpUiSH581j?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Android Development',
@@ -142,19 +146,25 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Complete Multi-Modular Architecture for Android Development',
+      body: 'Build a Multi-Module, Industry ready Android app with Kotlin, Authentication and a Mongo DB Device Sync as a Database',
+      year: 'July 2023',
+      link: 'https://udemy-certificate.s3.amazonaws.com/image/UC-c9fcaeec-e1b4-4ac3-baba-e71a3e2f1f84.jpg',
+    },
+    {
+      name: 'Menjadi Android Developer Expert',
+      body: 'Dicoding Academy Online Course',
+      year: 'November 2022',
+      link: 'https://dicoding.com/certificates/N9ZO44VNRZG5',
     },
   ],
   educations: [
-    {
-      institution: 'Duta Bangsa Surakarta University',
-      degree: 'Bachelor Degree',
-      from: '2016',
-      to: '2020',
-    },
+    // {
+    //   institution: 'Duta Bangsa Surakarta University',
+    //   degree: 'Bachelor Degree',
+    //   from: '2016',
+    //   to: '2020',
+    // },
   ],
   publications: [
     // {
@@ -191,54 +201,49 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'winter',
 
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
 
-    // Display the ring in Profile picture
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      // 'light',
-      // 'dark',
-      // 'cupcake',
-      // 'bumblebee',
-      // 'emerald',
-      // 'corporate',
-      // 'synthwave',
-      // 'retro',
-      // 'cyberpunk',
-      // 'valentine',
-      // 'halloween',
-      // 'garden',
-      // 'forest',
-      // 'aqua',
-      // 'lofi',
-      // 'pastel',
-      // 'fantasy',
-      // 'wireframe',
-      // 'black',
-      // 'luxury',
-      // 'dracula',
-      // 'cmyk',
-      // 'autumn',
-      // 'business',
-      // 'acid',
-      // 'lemonade',
-      // 'night',
-      // 'coffee',
-      // 'winter',
-      // 'dim',
-      // 'nord',
-      // 'sunset',
-      // 'procyon',
+      'light',
+      'dark',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
+      'synthwave',
+      'retro',
+      'cyberpunk',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'fantasy',
+      'wireframe',
+      'black',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'dim',
+      'nord',
+      'sunset',
+      'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme
