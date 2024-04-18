@@ -39,7 +39,7 @@ const CONFIG = {
           description:
             'Worked with HSO Astra International to develop their internal App for Delivery Man',
           imageUrl:
-            'android.png',
+            'ic_Deliveryman.png',
           link: '',
         },
         {
@@ -47,7 +47,7 @@ const CONFIG = {
           description:
             'Worked with HSO Astra International to develop their internal App for Dealer Warehourse',
           imageUrl:
-            '/android.png',
+            '/ic_WMS.png',
           link: '',
         },
         {
@@ -56,6 +56,14 @@ const CONFIG = {
             'App for help PGN reporting Site Assets Inspection.',
           imageUrl:
             'android.png',
+          link: '',
+        },
+        {
+          title: 'Srikandi Mobile',
+          description:
+            'Application for charging substation maintenance and Healthy Index calculations.',
+          imageUrl:
+            '/ic_srikandi.png',
           link: '',
         },
         {
