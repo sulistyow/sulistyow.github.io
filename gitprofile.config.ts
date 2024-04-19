@@ -199,7 +199,7 @@ const CONFIG = {
     // limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', 
+    id: 'G-MXLB5FNQWB', 
   },
   hotjar: {
     id: '',
