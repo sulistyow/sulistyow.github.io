@@ -158,6 +158,12 @@ const CONFIG = {
       link: 'https://udemy-certificate.s3.amazonaws.com/image/UC-c9fcaeec-e1b4-4ac3-baba-e71a3e2f1f84.jpg',
     },
     {
+      name: 'Belajar Fundamental Aplikasi Flutter',
+      body: 'Dicoding Academy Online Course',
+      year: 'Dec 2022',
+      link: 'https://www.dicoding.com/certificates/2VX3YR24QPYQ',
+    },
+    {
       name: 'Menjadi Android Developer Expert',
       body: 'Dicoding Academy Online Course',
       year: 'November 2022',
