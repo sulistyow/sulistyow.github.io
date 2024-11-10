@@ -2,21 +2,21 @@
 
 const CONFIG = {
   github: {
-    username: 'sulistyow', 
+    username: 'sulistyow',
   },
-  
+
   base: '/',
   projects: {
     github: {
-      display: false, 
+      display: false,
       header: 'Github Projects',
-      mode: 'automatic', 
+      mode: 'automatic',
       automatic: {
-        sortBy: 'stars', 
-        limit: 8, 
+        sortBy: 'stars',
+        limit: 8,
         exclude: {
-          forks: false, 
-          projects: [], 
+          forks: false,
+          projects: [],
         },
       },
       manual: {
@@ -30,56 +30,48 @@ const CONFIG = {
           title: 'LINE Bank',
           description:
             'Work with Hana Bank to develop Android app their digital banking app, LINE Bank',
-          imageUrl:
-            '/linebank.png',
+          imageUrl: '/linebank.png',
           link: 'https://linebank.co.id/',
         },
         {
           title: 'Delivery Man',
           description:
             'Worked with HSO Astra International to develop their internal App for Delivery Man',
-          imageUrl:
-            'ic_Deliveryman.png',
+          imageUrl: 'ic_Deliveryman.png',
           link: '',
         },
         {
           title: 'WMS App',
           description:
             'Worked with HSO Astra International to develop their internal App for Dealer Warehourse',
-          imageUrl:
-            '/ic_WMS.png',
+          imageUrl: '/ic_WMS.png',
           link: '',
         },
         {
           title: 'PATROL PGN',
-          description:
-            'App for help PGN reporting Site Assets Inspection.',
-          imageUrl:
-            'android.png',
+          description: 'App for help PGN reporting Site Assets Inspection.',
+          imageUrl: 'android.png',
           link: '',
         },
         {
           title: 'Srikandi Mobile',
           description:
             'Application for charging substation maintenance and Healthy Index calculations.',
-          imageUrl:
-            '/ic_srikandi.png',
+          imageUrl: '/ic_srikandi.png',
           link: '',
         },
         {
           title: 'CBM Gardu',
           description:
             'CBM Mobile Application for charging substation maintenance and Healthy Index calculations.',
-          imageUrl:
-            '/cbmtransmisi.webp',
+          imageUrl: '/cbmtransmisi.webp',
           link: 'https://play.google.com/store/apps/details?id=id.lumut.cbmgardu&hl=id&gl=US',
         },
         {
           title: 'CBM Transmisi',
           description:
             'PT PLN (Persero) UIP3B Sumatra Mobile Transmission CBM Application for filling maintenance and calculating Healthy Index.',
-          imageUrl:
-            '/srintami.png',
+          imageUrl: '/srintami.png',
           link: 'https://play.google.com/store/apps/details?id=id.lumut.cbmtrans&hl=en_US',
         },
       ],
@@ -97,15 +89,15 @@ const CONFIG = {
     researchGate: '',
     facebook: '',
     instagram: '',
-    youtube: '', 
+    youtube: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', 
+    stackoverflow: '',
     skype: '',
     telegram: '',
-    website: '',
+    website: 'sulistory.com',
     phone: '',
     email: 'sulistyo.wahyu27@gmail.com',
   },
@@ -125,7 +117,7 @@ const CONFIG = {
     'PHP',
     'Firebase',
     'Goole Play Services',
-    'Git'
+    'Git',
   ],
   experiences: [
     {
@@ -137,7 +129,7 @@ const CONFIG = {
     },
     {
       company: 'PT Rapid Technology Indonesia',
-      position: 'Android Developer',
+      position: 'Android Developer @LINEBank',
       from: 'April 2022',
       to: 'February 2023',
       companyLink: 'https://rapidtech.id/',
@@ -205,7 +197,7 @@ const CONFIG = {
     // limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: 'G-MXLB5FNQWB', 
+    id: 'G-MXLB5FNQWB',
   },
   hotjar: {
     id: '',
