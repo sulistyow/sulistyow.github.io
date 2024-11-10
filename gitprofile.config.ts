@@ -122,14 +122,14 @@ const CONFIG = {
   experiences: [
     {
       company: 'PT Nusantara Duta Solusindo',
-      position: 'Android Developer',
+      position: 'Android Developer @LINEBank',
       from: 'July 2023',
       to: 'Present',
       companyLink: 'https://nds.co.id/',
     },
     {
       company: 'PT Rapid Technology Indonesia',
-      position: 'Android Developer @LINEBank',
+      position: 'Android Developer',
       from: 'April 2022',
       to: 'February 2023',
       companyLink: 'https://rapidtech.id/',
