@@ -144,6 +144,12 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'Belajar Pengembangan Aplikasi Flutter Intermediate',
+      body: 'Dicoding Academy Online Course',
+      year: 'Dec 2024',
+      link: 'https://www.dicoding.com/certificates/NVP740OM4PR0',
+    },
+    {
       name: 'Complete Multi-Modular Architecture for Android Development',
       body: 'Build a Multi-Module, Industry ready Android app with Kotlin, Authentication and a Mongo DB Device Sync as a Database',
       year: 'July 2023',
