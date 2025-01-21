@@ -8,7 +8,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: false,
+      display: true,
       header: 'Github Projects',
       mode: 'automatic',
       automatic: {
