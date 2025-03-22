@@ -12,10 +12,10 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic',
       automatic: {
-        sortBy: 'stars',
+        sortBy: 'updated',
         limit: 8,
         exclude: {
-          forks: false,
+          forks: true,
           projects: [],
         },
       },
