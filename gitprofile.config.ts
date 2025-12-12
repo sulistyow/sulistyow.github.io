@@ -97,7 +97,7 @@ const CONFIG = {
     stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'sulistory.com',
+    website: 'https://sulistyowahyu.my.id',
     phone: '',
     email: 'sulistyo.wahyu27@gmail.com',
   },
