@@ -40,7 +40,7 @@ export default function Home() {
               <h1 style={{ fontSize: 'clamp(3rem, 5vw, 4.5rem)', fontWeight: 600, letterSpacing: '-0.025em', color: 'var(--zinc-50)', lineHeight: '1.1' }}>
                 Sulistyo Wahyu Sasongko
               </h1>
-              <p style={{ marginTop: '1.5rem', fontSize: '1.5rem', fontWeight: 500, color: 'var(--blue-300)' }}>
+              <p style={{ marginTop: '1.5rem', fontSize: '1.5rem', fontWeight: 500, color: 'var(--green-300)' }}>
                 Android Developer
               </p>
               <p style={{ marginTop: '1.5rem', maxWidth: '42rem', fontSize: '1.125rem', color: 'var(--zinc-400)', lineHeight: '1.75' }}>
@@ -68,22 +68,22 @@ export default function Home() {
             </div>
 
             <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '400px' }}>
-              <div style={{ position: 'absolute', inset: '1.5rem', borderRadius: '50%', border: '1px solid rgba(96, 165, 250,0.1)', background: 'rgba(96, 165, 250,0.03)', filter: 'blur(24px)' }}></div>
-              <div style={{ position: 'absolute', height: '18rem', width: '18rem', borderRadius: '50%', border: '1px dashed rgba(147, 197, 253,0.2)' }}></div>
+              <div style={{ position: 'absolute', inset: '1.5rem', borderRadius: '50%', border: '1px solid rgba(0, 230, 118,0.1)', background: 'rgba(0, 230, 118,0.03)', filter: 'blur(24px)' }}></div>
+              <div style={{ position: 'absolute', height: '18rem', width: '18rem', borderRadius: '50%', border: '1px dashed rgba(110, 231, 183,0.2)' }}></div>
               <div style={{ position: 'absolute', height: '14rem', width: '14rem', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.1)' }}></div>
               
               <div style={{ position: 'absolute', left: '0', top: '3.5rem', borderRadius: '1rem', border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(9,9,11,0.75)', padding: '0.75rem 1rem', fontSize: '0.875rem', color: 'var(--zinc-300)', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)', backdropFilter: 'blur(24px)' }}>
-                <span style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.18em', color: 'var(--blue-300)' }}>Focus</span>
+                <span style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.18em', color: 'var(--green-300)' }}>Focus</span>
                 Android + Kotlin
               </div>
               
               <div style={{ position: 'absolute', right: '0', top: '4rem', zIndex: 20, borderRadius: '1rem', border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(9,9,11,0.8)', padding: '0.75rem 1rem', fontSize: '0.875rem', color: 'var(--zinc-300)', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)', backdropFilter: 'blur(24px)' }}>
-                <span style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.18em', color: 'var(--blue-300)' }}>Based in</span>
+                <span style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.18em', color: 'var(--green-300)' }}>Based in</span>
                 Jakarta, Indonesia
               </div>
 
-              <div style={{ position: 'relative', borderRadius: '50%', border: '1px solid rgba(147, 197, 253,0.2)', background: 'rgba(9,9,11,0.8)', padding: '0.75rem', boxShadow: '0 32px 100px -32px rgba(96, 165, 250,0.6)' }}>
-                <div style={{ position: 'absolute', inset: '-0.75rem', borderRadius: '50%', background: 'linear-gradient(to bottom right, rgba(147, 197, 253,0.3), transparent, rgba(29, 78, 216,0.2))', filter: 'blur(24px)' }}></div>
+              <div style={{ position: 'relative', borderRadius: '50%', border: '1px solid rgba(110, 231, 183,0.2)', background: 'rgba(9,9,11,0.8)', padding: '0.75rem', boxShadow: '0 32px 100px -32px rgba(0, 230, 118,0.6)' }}>
+                <div style={{ position: 'absolute', inset: '-0.75rem', borderRadius: '50%', background: 'linear-gradient(to bottom right, rgba(110, 231, 183,0.3), transparent, rgba(4, 120, 87,0.2))', filter: 'blur(24px)' }}></div>
                 <div style={{ position: 'relative', height: '14rem', width: '14rem', overflow: 'hidden', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.1)', background: 'var(--zinc-900)', boxShadow: '0 0 0 8px var(--zinc-950)' }}>
                   <Image alt="Sulistyo Wahyu Sasongko" fill style={{ objectFit: 'cover' }} src="/profile.jpg" priority unoptimized />
                 </div>
@@ -109,7 +109,7 @@ export default function Home() {
               <article className="card-bento">
                 <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '1rem' }}>
                   <div>
-                    <div style={{ display: 'grid', placeItems: 'center', height: '2.75rem', width: '2.75rem', borderRadius: '1rem', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.1)', color: 'var(--blue-300)' }}>
+                    <div style={{ display: 'grid', placeItems: 'center', height: '2.75rem', width: '2.75rem', borderRadius: '1rem', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.1)', color: 'var(--green-300)' }}>
                       <Smartphone size={21} />
                     </div>
                     <h3 style={{ marginTop: '1.25rem', fontSize: '1.25rem', fontWeight: 600, color: 'var(--zinc-50)' }}>Mobile</h3>
@@ -128,7 +128,7 @@ export default function Home() {
               <article className="card-bento">
                 <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '1rem' }}>
                   <div>
-                    <div style={{ display: 'grid', placeItems: 'center', height: '2.75rem', width: '2.75rem', borderRadius: '1rem', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.1)', color: 'var(--blue-300)' }}>
+                    <div style={{ display: 'grid', placeItems: 'center', height: '2.75rem', width: '2.75rem', borderRadius: '1rem', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.1)', color: 'var(--green-300)' }}>
                       <CodeXml size={21} />
                     </div>
                     <h3 style={{ marginTop: '1.25rem', fontSize: '1.25rem', fontWeight: 600, color: 'var(--zinc-50)' }}>Backend & Web</h3>
@@ -154,7 +154,7 @@ export default function Home() {
               <article className="card-bento">
                 <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '1rem' }}>
                   <div>
-                    <div style={{ display: 'grid', placeItems: 'center', height: '2.75rem', width: '2.75rem', borderRadius: '1rem', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.1)', color: 'var(--blue-300)' }}>
+                    <div style={{ display: 'grid', placeItems: 'center', height: '2.75rem', width: '2.75rem', borderRadius: '1rem', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.1)', color: 'var(--green-300)' }}>
                       <Terminal size={21} />
                     </div>
                     <h3 style={{ marginTop: '1.25rem', fontSize: '1.25rem', fontWeight: 600, color: 'var(--zinc-50)' }}>Practices & Tools</h3>
@@ -186,7 +186,7 @@ export default function Home() {
               <article className="card-project group">
                 <div>
                   <div style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <span style={{ borderRadius: '9999px', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.16em', color: 'var(--blue-300)' }}>Featured</span>
+                    <span style={{ borderRadius: '9999px', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.16em', color: 'var(--green-300)' }}>Featured</span>
                     <ArrowUpRight size={20} style={{ color: 'var(--zinc-600)' }} />
                   </div>
                   <h3 style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--zinc-50)' }}>SWIPE APP</h3>
@@ -198,7 +198,7 @@ export default function Home() {
               <article className="card-project group">
                 <div>
                   <div style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <span style={{ borderRadius: '9999px', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.16em', color: 'var(--blue-300)' }}>Featured</span>
+                    <span style={{ borderRadius: '9999px', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.16em', color: 'var(--green-300)' }}>Featured</span>
                     <ArrowUpRight size={20} style={{ color: 'var(--zinc-600)' }} />
                   </div>
                   <h3 style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--zinc-50)' }}>LINE Bank</h3>
@@ -210,7 +210,7 @@ export default function Home() {
               <article className="card-project group">
                 <div>
                   <div style={{ marginBottom: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <span style={{ borderRadius: '9999px', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.16em', color: 'var(--blue-300)' }}>Featured</span>
+                    <span style={{ borderRadius: '9999px', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.16em', color: 'var(--green-300)' }}>Featured</span>
                     <ArrowUpRight size={20} style={{ color: 'var(--zinc-600)' }} />
                   </div>
                   <h3 style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--zinc-50)' }}>Independent Publishing</h3>
@@ -235,14 +235,14 @@ export default function Home() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem' }}>
                     <div>
-                      <p style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--blue-300)' }}>Android Developer (LINE Bank)</p>
+                      <p style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--green-300)' }}>Android Developer (LINE Bank)</p>
                       <h3 style={{ marginTop: '0.25rem', fontSize: '1.125rem', fontWeight: 600, color: 'var(--zinc-50)' }}>PT Nusantara Duta Solusindo</h3>
                     </div>
                     <span style={{ borderRadius: '9999px', border: '1px solid rgba(255,255,255,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 500, color: 'var(--zinc-400)' }}>Jul 2023 - Present</span>
                   </div>
                   <ul style={{ marginTop: '1.25rem', display: 'grid', gap: '0.5rem', fontSize: '0.875rem', lineHeight: '1.5', color: 'var(--zinc-400)' }}>
-                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--blue-400)' }}></span><span>Maintained and enhanced the LINE Bank Android application, ensuring high performance, stability, and reliability in a production environment.</span></li>
-                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--blue-400)' }}></span><span>Contributed to the Proof of Concept (POC) and technical validation of a Liveness Detection feature to strengthen digital user verification processes.</span></li>
+                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--green-400)' }}></span><span>Maintained and enhanced the LINE Bank Android application, ensuring high performance, stability, and reliability in a production environment.</span></li>
+                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--green-400)' }}></span><span>Contributed to the Proof of Concept (POC) and technical validation of a Liveness Detection feature to strengthen digital user verification processes.</span></li>
                   </ul>
                 </div>
               </article>
@@ -251,14 +251,14 @@ export default function Home() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem' }}>
                     <div>
-                      <p style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--blue-300)' }}>Android Developer</p>
+                      <p style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--green-300)' }}>Android Developer</p>
                       <h3 style={{ marginTop: '0.25rem', fontSize: '1.125rem', fontWeight: 600, color: 'var(--zinc-50)' }}>PT Rapid Teknologi Indonesia</h3>
                     </div>
                     <span style={{ borderRadius: '9999px', border: '1px solid rgba(255,255,255,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 500, color: 'var(--zinc-400)' }}>Apr 2022 - Feb 2023</span>
                   </div>
                   <ul style={{ marginTop: '1.25rem', display: 'grid', gap: '0.5rem', fontSize: '0.875rem', lineHeight: '1.5', color: 'var(--zinc-400)' }}>
-                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--blue-400)' }}></span><span>Developed and delivered business-critical features across three Android applications within the Astra International HSO ecosystem.</span></li>
-                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--blue-400)' }}></span><span>Improved code maintainability and scalability by implementing the MVVM pattern and Clean Code principles.</span></li>
+                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--green-400)' }}></span><span>Developed and delivered business-critical features across three Android applications within the Astra International HSO ecosystem.</span></li>
+                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--green-400)' }}></span><span>Improved code maintainability and scalability by implementing the MVVM pattern and Clean Code principles.</span></li>
                   </ul>
                 </div>
               </article>
@@ -267,14 +267,14 @@ export default function Home() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem' }}>
                     <div>
-                      <p style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--blue-300)' }}>Android Developer</p>
+                      <p style={{ fontSize: '0.875rem', fontWeight: 500, color: 'var(--green-300)' }}>Android Developer</p>
                       <h3 style={{ marginTop: '0.25rem', fontSize: '1.125rem', fontWeight: 600, color: 'var(--zinc-50)' }}>PT Lumut Karya Sejahtera</h3>
                     </div>
                     <span style={{ borderRadius: '9999px', border: '1px solid rgba(255,255,255,0.1)', padding: '0.25rem 0.75rem', fontSize: '0.75rem', fontWeight: 500, color: 'var(--zinc-400)' }}>Sep 2020 - Oct 2021</span>
                   </div>
                   <ul style={{ marginTop: '1.25rem', display: 'grid', gap: '0.5rem', fontSize: '0.875rem', lineHeight: '1.5', color: 'var(--zinc-400)' }}>
-                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--blue-400)' }}></span><span>Developed and maintained multiple Android applications using Java, supporting business operations across various client projects.</span></li>
-                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--blue-400)' }}></span><span>Designed and implemented a core tracking feature utilizing Google Maps SDK, improving real-time location monitoring capabilities.</span></li>
+                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--green-400)' }}></span><span>Developed and maintained multiple Android applications using Java, supporting business operations across various client projects.</span></li>
+                    <li style={{ display: 'flex', gap: '0.75rem' }}><span style={{ marginTop: '0.5rem', height: '0.375rem', width: '0.375rem', flex: 'none', borderRadius: '50%', background: 'var(--green-400)' }}></span><span>Designed and implemented a core tracking feature utilizing Google Maps SDK, improving real-time location monitoring capabilities.</span></li>
                   </ul>
                 </div>
               </article>
@@ -288,7 +288,7 @@ export default function Home() {
             
             <div style={{ borderRadius: '1.5rem', border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.03)', padding: '1.5rem' }}>
               <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                <div style={{ display: 'grid', placeItems: 'center', height: '2.5rem', width: '2.5rem', borderRadius: '1rem', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.1)', color: 'var(--blue-300)' }}>
+                <div style={{ display: 'grid', placeItems: 'center', height: '2.5rem', width: '2.5rem', borderRadius: '1rem', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.1)', color: 'var(--green-300)' }}>
                   <BriefcaseBusiness size={20} />
                 </div>
                 <h2 style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--zinc-50)' }}>Education</h2>
@@ -304,9 +304,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div style={{ borderRadius: '1.5rem', border: '1px solid rgba(96, 165, 250,0.2)', background: 'rgba(96, 165, 250,0.06)', padding: '1.5rem' }}>
+            <div style={{ borderRadius: '1.5rem', border: '1px solid rgba(0, 230, 118,0.2)', background: 'rgba(0, 230, 118,0.06)', padding: '1.5rem' }}>
               <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                <div style={{ display: 'grid', placeItems: 'center', height: '2.5rem', width: '2.5rem', borderRadius: '1rem', border: '1px solid rgba(96, 165, 250,0.3)', background: 'rgba(96, 165, 250,0.1)', color: 'var(--blue-200)' }}>
+                <div style={{ display: 'grid', placeItems: 'center', height: '2.5rem', width: '2.5rem', borderRadius: '1rem', border: '1px solid rgba(0, 230, 118,0.3)', background: 'rgba(0, 230, 118,0.1)', color: 'var(--green-200)' }}>
                   <Trophy size={20} />
                 </div>
                 <h2 style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--zinc-50)' }}>Certifications</h2>
