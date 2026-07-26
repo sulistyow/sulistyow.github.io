@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <header className="navbar">
         <div className="container nav-container">
-          <a className="nav-logo" href="#top">sulistyow.space</a>
+          <a className="nav-logo" href="#top">Sulistyo Wahyu S</a>
           <nav className="nav-links">
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
