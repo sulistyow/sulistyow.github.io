@@ -51,7 +51,7 @@ export default function Home() {
                 <a className="btn-primary" href="mailto:sulistyo.wahyu27@gmail.com">
                   <Mail size={17} /> Contact Me
                 </a>
-                <a className="btn-secondary" href="/cv.pdf" target="_blank" rel="noreferrer">
+                <a className="btn-secondary" href="https://drive.google.com/drive/folders/18XddO9IF_zOdjiBbiI00zYxpUiSH581j?usp=sharing" target="_blank" rel="noreferrer">
                   <Download size={17} /> Download CV
                 </a>
                 <a className="btn-secondary" href="#projects">
