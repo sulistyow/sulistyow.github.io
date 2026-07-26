@@ -37,6 +37,9 @@ body {
   min-height: 100%;
   color: var(--zinc-200);
   background-color: var(--bg-color);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
   background-image: 
     radial-gradient(circle at top left, rgba(0, 230, 118, 0.15), transparent 40rem),
     linear-gradient(180deg, var(--bg-color) 0%, var(--bg-gradient) 45%, var(--bg-color) 100%);
@@ -88,7 +91,7 @@ a {
   top: 0;
   z-index: 40;
   border-bottom: 1px solid var(--border-white-5);
-  background: rgba(9, 9, 11, 0.8);
+  background: rgba(9, 9, 11, 0.98);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
 }
