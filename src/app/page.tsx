@@ -1,4 +1,5 @@
 import Image from "next/image";
+import profilePic from "../../public/profile.png";
 import { Mail, Sparkles, ArrowUpRight, Smartphone, CodeXml, Terminal, BriefcaseBusiness, Trophy, Download } from "lucide-react";
 
 const GithubIcon = ({ size = 16 }) => (
@@ -85,7 +86,7 @@ export default function Home() {
               <div style={{ position: 'relative', borderRadius: '50%', border: '1px solid rgba(110, 231, 183,0.2)', background: 'rgba(9,9,11,0.8)', padding: '0.75rem', boxShadow: '0 32px 100px -32px rgba(0, 230, 118,0.6)' }}>
                 <div style={{ position: 'absolute', inset: '-0.75rem', borderRadius: '50%', background: 'linear-gradient(to bottom right, rgba(110, 231, 183,0.3), transparent, rgba(4, 120, 87,0.2))', filter: 'blur(24px)' }}></div>
                 <div style={{ position: 'relative', height: '14rem', width: '14rem', overflow: 'hidden', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.1)', background: 'var(--zinc-900)', boxShadow: '0 0 0 8px var(--zinc-950)' }}>
-                  <Image alt="Sulistyo Wahyu Sasongko" fill style={{ objectFit: 'cover' }} src="/profile.jpg" priority unoptimized />
+                  <Image alt="Sulistyo Wahyu Sasongko" fill style={{ objectFit: 'cover' }} src={profilePic} priority unoptimized />
                 </div>
               </div>
               
