@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
+import { CONFIG } from "../../portfolio.config";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -13,10 +14,10 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Sulistyo Wahyu Sasongko | Android Developer",
-  description: "Android Developer with 5+ years of experience building and maintaining mobile applications across fintech, enterprise, and live-streaming industries.",
-  keywords: ["Android Developer", "Kotlin", "Java", "Sulistyo Wahyu Sasongko", "Portfolio", "Mobile App Developer"],
-  authors: [{ name: "Sulistyo Wahyu Sasongko" }],
+  title: CONFIG.seo.title,
+  description: CONFIG.seo.description,
+  keywords: CONFIG.seo.keywords,
+  authors: CONFIG.seo.authors,
 };
 
 export default function RootLayout({
